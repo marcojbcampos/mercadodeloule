@@ -536,7 +536,7 @@ const SummaryScreen = ({ route, navigation }) => {
   const { faltas, presencas, corridor, username } = route.params;
 
   const scriptURL =
-    'https://script.google.com/macros/s/AKfycbx24YwpRLEyhBFLZ-CxuHrhUFk51gag5BllQJh2FcW7ToHserqUeSLXqg65JWzBLRhM/exec';
+    'https://script.google.com/macros/s/AKfycbzteTWIQhWW1S2xvUcIhDpcwqO1o57PK2EN99PXW-O7sy9GZ_ybO1TPG6oD-NJw5LDL/exec';
 
   const handleSendData = async () => {
     const data = {
